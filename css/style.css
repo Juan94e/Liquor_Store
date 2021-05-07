@@ -3492,7 +3492,7 @@ input[type="button"].btn-block {
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
-  /* white-space: nowrap; cambio para el titulos (quitarlo si no)*/ } 
+  /* white-space: nowrap; cambio para el titulo (quitarlo si no)*/ } 
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
 
