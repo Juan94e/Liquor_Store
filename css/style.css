@@ -46,9 +46,21 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
-  .logo {
-    flex-direction: column;
-  } 
+  /* .mainLogo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1;
+  }  */
+
+  /* #prueba{
+  display: flex;
+  flex-wrap: wrap;
+} */
+/* @media (min-width: 576px) {
+  #prueba{
+  
+  }
+} */
 
  
 
@@ -444,6 +456,8 @@ pre {
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll; }
+
+
 
 .container {
   width: 100%;
@@ -3478,7 +3492,7 @@ input[type="button"].btn-block {
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
-  white-space: nowrap; }
+  /* white-space: nowrap; cambio para el titulos (quitarlo si no)*/ } 
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
 
