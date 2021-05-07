@@ -3492,7 +3492,7 @@ input[type="button"].btn-block {
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
-  /* white-space: nowrap; cambio para el titulo (quitarlo si no)*/ } 
+  /* white-space: nowrap; cambio para que el titulo se ajuste*/ } 
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
 
@@ -8387,9 +8387,10 @@ h1, h2, h3, h4, h5,
     position: relative; }
     .hero-wrap .slider-text .text {
       padding: 30px 0;
-      -webkit-transform: rotate(-4deg);
+      /* comentamos estas lineas para quitar la rotacion */
+      /* -webkit-transform: rotate(-4deg);
       -ms-transform: rotate(-4deg);
-      transform: rotate(-4deg); }
+      transform: rotate(-4deg);*/ } 
     .hero-wrap .slider-text h1 {
       font-size: 80px;
       color: #fff;
