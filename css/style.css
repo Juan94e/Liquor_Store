@@ -41,7 +41,7 @@
   box-sizing: border-box; }
 
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -59,13 +59,28 @@ html {
   flex-wrap: wrap;
 } */
 
-#nosotros {
+/* #nosotros {
   padding-bottom: 200px;
-}
+} */
 
-#licores {
-  padding-top: 100px;
-}
+/* Modificación para que la llegada a licores no sea tan abajo */
+
+@media (max-width: 627px) {
+  #licores {
+    padding-top: 205px;
+  }
+  .mainLogo{
+    visibility: hidden;
+    margin-bottom: -250px;
+  }
+  #texto{
+    padding-top: 0.0rem;
+    font-size: 17px;
+    line-height: 1.4;
+    margin-top: -30px;
+  }
+}  
+
 
 
  
@@ -473,7 +488,9 @@ pre {
   margin-left: auto; }
   @media (min-width: 576px) {
     .container {
-      max-width: 540px; } }
+      max-width: 540px; 
+    } 
+  }
   @media (min-width: 768px) {
     .container {
       max-width: 720px; } }
