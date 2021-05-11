@@ -79,6 +79,10 @@ html {
     line-height: 1.4;
     margin-top: -30px;
   }
+  /* padding para que el boton se ajuste al texto */
+  #boton{
+    padding: 0rem 0rem;
+  }
 }  
 
 
